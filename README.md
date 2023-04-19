@@ -20,3 +20,12 @@ https://data.imap.maryland.gov/datasets/38f3f8bc61bb4261b59d71b3642e3cd6_3/explo
 * in detail.html, add MapBox js/css and Turf.js js to head
 * copy and paste map code into detail.html
 * run server and load a zip code
+
+
+Better homepage
+
+* Add Flask imports to app.py and set secret key.
+* Update index() function to accept GET & POST requests and look for a zip code submitted by the form
+* Replace index.html template with index_new version
+* Add top zip codes in March 2023
+* Add sentence to detail to determine if the March 2023 figure is the most ever
